@@ -1,0 +1,6 @@
+- [x] Remove fonts section from pubspec.yaml
+- [x] Remove fontFamily from theme in main.dart
+- [x] Replace SvgPicture.asset with Material Icons in main.dart
+- [x] Replace Image.asset with placeholders in main.dart
+- [ ] Run flutter pub get
+- [ ] Run flutter run to test
