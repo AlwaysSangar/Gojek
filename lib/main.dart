@@ -39,7 +39,32 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: EdgeInsets.all(20),
               child: Row(
                 children: [
-                  Expanded(child: Container(color: Colors.grey, height: 50)),
+                  Expanded(
+                    child: TextFormField(
+                      decoration: InputDecoration(
+                        prefixIcon: Icon(
+                          Icons.search,
+                          size: 20,
+                          color: Colors.grey,
+                        ),
+                        hintText: 'Find services, food, or places',
+                        hintStyle: TextStyle(
+                          fontFamily: 'SF-Pro-Display',
+                          fontSize: 14,
+                          color: Colors.grey,
+                        ),
+                        fillColor: Colors.white,
+                        filled: true,
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(
+                            30,
+                          ),
+                          borderSide: BorderSide.none,
+                        ),
+                      ),
+                    ),
+                    ),
+                    SizedBox(width: 10),
                   SizedBox(
                     width: 43,
                     height: 43,
